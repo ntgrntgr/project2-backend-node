@@ -17,6 +17,6 @@ describe("server", () => {
       .expect(200)
       .then((response) => {
         expect(response.body.message).toBe("Welcome to bezkoder application.");
-      });
+      })
   });
 });
